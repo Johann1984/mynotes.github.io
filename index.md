@@ -1,3 +1,3 @@
 ## Bienvenue sur MyNotes
 
-[GO](page1.md)
+[Mes Notes syr Powershell](Powershell.md)
