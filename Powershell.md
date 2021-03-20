@@ -1,4 +1,4 @@
-# Bienvenue sur la page Powershell
+# Bienvenue sur notes Powershell
 
 ## [POWERSHELL] Création d’un utilisateur AD
 
@@ -9,7 +9,8 @@ Il est toujours intéressant de savoir faire ce genre de chose, et surtout, le f
 ####### Definition des variables
 $VILLE = 'Karakura'
  
-####### Création Utilisateur dans AD
+####### Création Utilisateur dans l'AD  
+
 New-ADUser -Name "Ichigo KUROSAKI" -GivenName "Ichigo" -Surname "KUROSAKI" -SamAccountName "Ichigo.KUROSAKI"`
  -UserPrincipalName "Ichigo.KUROSAKI@shinpo.fr" -Path "OU=Utilisateurs,OU=HOME,DC=shinpo,DC=fr" -City $VILLE `
  description 'Shinigami Remplacant' -AccountPassword(Read-Host -AsSecureString "Input Password") -Enabled $true
