@@ -79,9 +79,9 @@ Tout est explicite sauf “Name”, j’aurai pu choisir ‘Nom d’affichage’
 
 Voici le reste du fichier CSV.  
 RORONOA,Zoro,Zoro.RORONOA,Zoro RORONOA,Zoro.RORONOA@shinpo.fr,Compte de Pirate
-USHIWA,Sasuke,Sasuke.USHIWA,Sasuke USHIWA,Sasuke.USHIWA@shinpo.fr, Survivant des USHIWA
-VEGATA,VEGATA,VEGATA,VEGETA,VEGATA@shinpo.fr,Roi de la planete VEGETA
-HATATE,Kakashi,Kakashi.HATATE,Kakashi HATATE,Kakashi.HATATE@shinpo.fr,Utilisateur du Sharingan
+USHIWA,Sasuke,Sasuke.USHIWA,Sasuke USHIWA,Sasuke.USHIWA@shinpo.fr, Survivant des USHIWA  
+VEGATA,VEGATA,VEGATA,VEGETA,VEGATA@shinpo.fr,Roi de la planete VEGETA  
+HATATE,Kakashi,Kakashi.HATATE,Kakashi HATATE,Kakashi.HATATE@shinpo.fr,Utilisateur du Sharingan  
 LIGHT,Yagami,Yagami.LIGHT,Yagami LIGHT,Yagami.LIGHT@shinpo.fr,Possesseur du DeathNote
 
 Nous avons notre contenu (mais nous aurions pu aller plus loin en ajoutant des adresses Mails, postales, numéro de TEL, le service, l’organisation, et encore d’autres attributs à ne plus savoir qu’en faire.  
