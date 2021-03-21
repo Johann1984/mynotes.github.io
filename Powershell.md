@@ -50,7 +50,7 @@ La voici :
 New-ADGroup -SamAccountName "SHINPOGroupeTEST" -DisplayName "[SHINPO] Groupe TEST" -GroupCategory Security -GroupScope Global -Name "[SHINPO] Groupe TEST" -Path "OU=Groupes,OU=HOME,DC=shinpo,DC=fr" -Description "Groupe de TEST"
 ```  
   
-  ## 3-Création d'utilisateurs en masse  
+## 3-Création d'utilisateurs en masse  
 Donc oui, créer un utilisateur, c’est bien !  
 Mais en créer plusieurs d’un clic, c’est mieux !
   
