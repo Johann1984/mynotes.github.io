@@ -77,7 +77,7 @@ La 1ere ligne de votre fichier DOIT contenir les en-têtes (vous les choisissez,
 Nom,Prenom,SamAccountName,Name,UPN,Description
 Tout est explicite sauf “Name”, j’aurai pu choisir ‘Nom d’affichage’ mais c’était très long à écrire, bref.
 
-Voici le reste du fichier CSV.
+Voici le reste du fichier CSV.  
 RORONOA,Zoro,Zoro.RORONOA,Zoro RORONOA,Zoro.RORONOA@shinpo.fr,Compte de Pirate
 USHIWA,Sasuke,Sasuke.USHIWA,Sasuke USHIWA,Sasuke.USHIWA@shinpo.fr, Survivant des USHIWA
 VEGATA,VEGATA,VEGATA,VEGETA,VEGATA@shinpo.fr,Roi de la planete VEGETA
