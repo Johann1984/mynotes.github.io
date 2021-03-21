@@ -7,7 +7,7 @@
 Nous allons voir comment créer un utilisateur AD via POWERShell.
 Il est toujours intéressant de savoir faire ce genre de chose, et surtout, le faire en masse, mais cela sera pour plus tard.
 
-`
+```
 ####### Definition des variables
 $VILLE = 'Karakura'
  
@@ -16,7 +16,7 @@ $VILLE = 'Karakura'
 New-ADUser -Name "Ichigo KUROSAKI" -GivenName "Ichigo" -Surname "KUROSAKI" -SamAccountName "Ichigo.KUROSAKI"`
  -UserPrincipalName "Ichigo.KUROSAKI@shinpo.fr" -Path "OU=Utilisateurs,OU=HOME,DC=shinpo,DC=fr" -City $VILLE `
  description 'Shinigami Remplacant' -AccountPassword(Read-Host -AsSecureString "Input Password") -Enabled $true
-`
+```
 
 Explications
 
