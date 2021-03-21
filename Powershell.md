@@ -84,4 +84,25 @@ VEGATA,VEGATA,VEGATA,VEGETA,VEGATA@shinpo.fr,Roi de la planete VEGETA
 HATATE,Kakashi,Kakashi.HATATE,Kakashi HATATE,Kakashi.HATATE@shinpo.fr,Utilisateur du Sharingan
 LIGHT,Yagami,Yagami.LIGHT,Yagami LIGHT,Yagami.LIGHT@shinpo.fr,Possesseur du DeathNote
 
-Nous avons notre contenu (mais nous aurions pu aller plus loin en ajoutant des adresses Mails, postales, numéro de TEL, le service, l’organisation, et encore d’autres attributs à ne plus savoir qu’en faire.
+Nous avons notre contenu (mais nous aurions pu aller plus loin en ajoutant des adresses Mails, postales, numéro de TEL, le service, l’organisation, et encore d’autres attributs à ne plus savoir qu’en faire.  
+  
+Notre fichier CSV terminé, passons aux explications du script PowerShell.
+
+Commençons par la boucle FOREACH :  
+```  
+foreach ($USER in $USERS)
+```  
+FOREACH crée une variable pour chaque ligne (USER) du fichier CSV (USER)dufichierCSV(USERS).
+Nous utiliserons juste cette nouvelle variable : $USER.”l’option que nous avons besoin”.
+Nous pourrons voir que cette option fait référence aux colonnes de notre fichier CSV.
+Donc, nous pouvons mettre ce que nous souhaitons dans ce fichier.
+
+Je vous laisse découvrir les autres options, qui ne sont pas essentielles mais bien pratique.
+Maintenant, vérifions que nos utilisateurs ont bien été créer avec notre script.
+Nous avons 2 méthodes, aller dans l’AD et vérifier la présence de nos utilisateurs.
+Ou juste faire une petit ligne de commande pour vérifier cela.  
+
+```
+$PATH = "OU=Utilisateurs,OU=HOME,DC=shinpo,DC=fr"
+Get-ADUser -SearchBase $PATH -Filter * -Properties * | Select-Object SamAccountName,UserPrincipalName,description  
+```
