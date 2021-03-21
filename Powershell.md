@@ -2,7 +2,7 @@
 
 [TOC]
 
-## 1 [POWERSHELL] Création d’un utilisateur AD
+## 1-Création d’un utilisateur AD
 
 Nous allons voir comment créer un utilisateur AD via POWERShell.
 Il est toujours intéressant de savoir faire ce genre de chose, et surtout, le faire en masse, mais cela sera pour plus tard.
@@ -38,7 +38,7 @@ Et voilà, ce n’est pas sorcier.
 Bien sûr, cette cmdlet a beaucoup plus d’options que je vous laisserai découvrir par vous-même.  
   
     
-## 2 [POWERSHELL] Création de Groupe de Sécurité  
+## 2-Création de Groupe de Sécurité  
   
 Hello à vous,  
 Oui, la création de groupe de sécurité être très facile graphiquement.  
